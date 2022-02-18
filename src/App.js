@@ -10,6 +10,7 @@ import{
   Routes,
   Route
 } from "react-router-dom"
+import { BotonCambio } from './components/Pages/BotonCambio/BotonCambio';
 
 
 
@@ -20,7 +21,8 @@ function App() {
       <Route path='/' element={<Body/>}/>
       <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='/Contact' element={<Contact/>}/>      
-      <Route path='/Contador' element={<Contador/>}/>      
+      <Route path='/Contador' element={<Contador/>}/>    
+      <Route path='/BotonCambio' element={<BotonCambio/>}/>    
     </Routes>
   </BrowserRouter>
   );
